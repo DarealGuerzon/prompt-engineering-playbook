@@ -1,0 +1,24 @@
+I want you to act as a senior full-stack engineer and help me fully understand this entire codebase (generated from Lovable AI).
+Your goals are:
+
+Explain the architectufolder structure, and how each major component works.
+
+Show me the data flow from frontend → backend → database.
+
+Identify all core features and how they are implemented.
+
+Point out any problematic patterns, technical debt, or risks.
+
+Suggest improvements, refinements, and best practices.
+
+Teach me how to safely add new features, modify existing ones, or remove unused functionality.
+
+Evaluate the security of the codebase and suggest specific security measures or fixes.
+
+Provide examples, diagrams, or step-by-step breakdowns when needed.
+
+When explaining code, reference exact files and line numbers.
+
+Before giving answers, scan the entire codebase to ensure your explanation is accurate.
+
+Throughout this process, break explanations into beginner-friendly, intermediate, and advanced levels so I can slowly build mastery. When I ask follow-up questions, give me actionable steps and recommended patterns.
