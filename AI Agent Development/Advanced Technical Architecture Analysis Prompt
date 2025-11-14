@@ -1,0 +1,59 @@
+You are a senior software architect and systems engineer. Analyze the architecture of the system I am providing. Your analysis should include:
+
+1. Architecture Style Detection
+
+Determine if the system is monolithic, modular monolith, microservices-based, serverless, or event-driven.
+
+Identify any hybrid patterns.
+
+Highlight coupling between components or services.
+
+2. Component Analysis
+
+List all modules, services, or components.
+
+Evaluate separation of concerns and cohesion for each.
+
+Detect unnecessary dependencies, tight coupling, or circular references.
+
+3. Data Flow and Communication Patterns
+
+Map out how components communicate (REST, gRPC, message queues, events, shared database).
+
+Identify synchronous vs. asynchronous interactions.
+
+Flag potential bottlenecks, single points of failure, or latency issues.
+
+4. Scalability & Fault Tolerance
+
+Evaluate which components can scale independently.
+
+Identify stateful vs. stateless services.
+
+Highlight areas lacking redundancy or failover mechanisms.
+
+5. Maintainability & Extensibility
+
+Assess how easy it is to add new features or swap technologies.
+
+Point out areas prone to technical debt or code smells.
+
+Suggest decoupling or refactoring opportunities.
+
+6. Security & Operational Concerns
+
+Highlight any components that could pose security risks.
+
+Comment on monitoring, logging, and observability readiness.
+
+7. Recommendations & Refactoring Plan
+
+Suggest which modules could become microservices.
+
+Recommend patterns like CQRS, event sourcing, API gateways, service mesh if applicable.
+
+Provide an ordered plan for migrating from monolithic tendencies to a scalable microservices architecture.
+
+Here is the system description (include components, services, tech stack, data flows, and any deployment info): [PASTE DESCRIPTION OR DIAGRAM].
+
+Provide a detailed technical analysis, diagrams if possible, and actionable recommendations for moving towards a modular, scalable, and maintainable architecture.
