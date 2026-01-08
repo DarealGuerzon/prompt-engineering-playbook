@@ -1,0 +1,29 @@
+I need your help to validate that a form submission on our website is properly tracked in Google Analytics 4 (GA4). Please guide me to check all the key metrics, events, and parameters to ensure the tracking is working correctly. Specifically, help me verify the following:
+
+Event count: Confirm that the form submission event (e.g., form_submit, generate_lead) is firing as expected.
+
+Event name consistency: Ensure the correct event name is being triggered and there are no duplicates or mislabeling.
+
+Event parameters: Verify key parameters such as form_id, form_name, page_location, and page_title.
+
+User count for the event: Confirm that real users (not just test users) are triggering submissions.
+
+Event timestamp / recent activity: Check that submissions appear in near real-time using DebugView or Realtime reports.
+
+Conversions: Ensure the form submission event is marked as a conversion and that conversion counts are realistic.
+
+Page path / landing page: Verify submissions are attributed to the correct page.
+
+Engagement time before submission: Check for realistic engagement times (to catch spam or bot submissions).
+
+Device category: Confirm submissions are working across desktop, mobile, and tablet.
+
+Traffic source / medium: Ensure submissions are coming from expected channels (organic, paid, referral, etc.).
+
+Drop-off comparison: Compare page views of the form page versus form submissions to identify potential tracking gaps.
+
+Realtime & DebugView validation: Test submitting the form and confirm the event appears immediately.
+
+Errors or missing events: Look for sudden drops to zero submissions, which may indicate broken tracking.
+
+Please provide a step-by-step validation plan, including which GA4 reports, filters, and DebugView steps I should use to check each of the above. Also highlight any potential issues or anomalies I should watch for.
