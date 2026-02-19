@@ -1,0 +1,59 @@
+I am a beginner learning TypeScript by building a real app over 14 days, spending about 1 hour per day.
+
+## App: Perfume of the Day Picker
+
+A web app where I can:
+- Add perfumes to my collection (name, brand, scent notes, season, occasion tags like casual/office/date night, rating, image optional)
+- Browse and manage my collection (edit, delete, view details)
+- Get a "Perfume of the Day" suggestion based on occasion or mood I select
+- Filter/search my collection by season, occasion, or scent notes
+
+## Tech Stack
+- TypeScript (strict, no `any` ever)
+- React + Next.js (App Router)
+- Supabase (database + auth)
+- Tailwind CSS for styling
+- Vercel for deployment
+
+## My Learning Goals
+- Master TypeScript: strict types, interfaces, enums, generics
+- Build typed React components with props, state, events, forms
+- Connect frontend to Supabase (auth + database, typed queries)
+- Be able to independently build full-stack apps after this
+
+## Rules for the 14-Day Plan
+- One task per day, each task builds on the previous day's work
+- Every day must include:
+  - What to build (specific feature or piece of the app)
+  - What TypeScript concept it teaches
+  - "Done When" criteria so I know I finished
+- Start from `npx create-next-app` on Day 1 and end with a deployed app on Day 14
+- Group into phases:
+  - Days 1-3: Project setup + TypeScript foundations (types, interfaces, enums applied in the app)
+  - Days 4-6: React UI (components, state, forms for adding/managing perfumes)
+  - Days 7-9: Supabase integration (database, auth, CRUD operations)
+  - Days 10-12: Core feature (suggestion engine, filtering, search)
+  - Days 13-14: Polish and deploy (loading states, error handling, Vercel deployment)
+- I write ALL code myself. Do not write the solution. Only give me the task and guidance.
+- Each day's task should be completable in roughly 1 hour
+- No libraries beyond the tech stack listed above
+
+## What I Want You to Generate
+Create all 14 daily task files (Day1.ts through Day14.ts) inside a folder structure like:
+
+Phase1-Setup/
+  Day1.ts, Day2.ts, Day3.ts
+Phase2-UI/
+  Day4.ts, Day5.ts, Day6.ts
+Phase3-Supabase/
+  Day7.ts, Day8.ts, Day9.ts
+Phase4-Features/
+  Day10.ts, Day11.ts, Day12.ts
+Phase5-Deploy/
+  Day13.ts, Day14.ts
+
+Each file should have the task as comments at the top (no code, just instructions).
+
+Also create a README.md with the project description, tech stack, setup instructions, and a progress table I can update daily.
+
+Start by setting up the project with `npx create-next-app` using TypeScript and Tailwind, then generate all the files.
